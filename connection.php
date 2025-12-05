@@ -1,6 +1,6 @@
 <!-- Everyone create the same schema and password.. -->
 <?php
-$conn = oci_connect('ROSE', 'Root123#', 'localhost/XE');
+$conn = oci_connect('RUPESH', 'Root123#', 'localhost/XE');
 
 if (!$conn) {
 	$e = oci_error();
